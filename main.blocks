@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="|_Z59SH1u-QkC`9=8%lP">score</variable></variables><block type="input_on_sound" id="i/}i/FN#^xvn6Jy#o2Pf" x="0" y="0"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_change" id="M+Ni6d:@,Cba#c8PX~r1"><field name="VAR" id="|_Z59SH1u-QkC`9=8%lP">score</field><value name="VALUE"><shadow type="math_number" id="6A6i(5(Ljr;z_coF}]#+"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="~6UGTU)^A]MM;u%CMR:T" x="312" y="70"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="$Pd6hbjp[OeQy{*,-;)!"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block><block type="input_logo_event" id="x|`DMmt@J0|r?=pa3v{6" x="-71" y="170"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="device_show_number" id="BzFzwO_xI%JXAK?Ry}]J"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="lK.7aveXmb=unpO2OBz@"><field name="VAR" id="|_Z59SH1u-QkC`9=8%lP">score</field></block></value></block></statement></block><block type="device_button_event" id="P9]AXWk.rp2AD?2(u*c{" x="78" y="390"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="7u$,Avs}Yng5`U}{vqPK"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
